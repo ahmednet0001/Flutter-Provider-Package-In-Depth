@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider_cahnge_notifire/models/report.dart';
+import 'package:provider_cahnge_notifire/screens/epmloyee_screen.dart';
 import 'package:provider_cahnge_notifire/screens/setting.dart';
 import 'package:provider_cahnge_notifire/services/firestore_serves.dart';
 
@@ -21,6 +22,14 @@ class Home extends StatelessWidget{
           Navigator.of(context).push(MaterialPageRoute(
             builder: (context)=>Setting()
           ));
+          },
+        ),
+        IconButton(
+          icon: Icon(Icons.format_list_bulleted),
+          onPressed: (){
+            Navigator.of(context).push(MaterialPageRoute(
+                builder: (context)=>EmployeesPage()
+            ));
           },
         )
       ],

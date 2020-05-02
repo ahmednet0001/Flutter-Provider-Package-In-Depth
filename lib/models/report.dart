@@ -11,6 +11,6 @@ class Report {
         wax = jsonObject["wax"],
         line = jsonObject["line"],
         timeStamp = jsonObject["timeStamp"]{
-   print(jsonObject);
+
   }
 }
