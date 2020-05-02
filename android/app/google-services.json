@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "733161447923",
+    "firebase_url": "https://wax-2-669d5.firebaseio.com",
+    "project_id": "wax-2-669d5",
+    "storage_bucket": "wax-2-669d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733161447923:android:3749f9f931026fdf35b286",
+        "android_client_info": {
+          "package_name": "com.example.provider_cahnge_notifire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733161447923-jptk8oe6ggigr2o0o18ov315f0fvklap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIwbcaFFxDIOd1nRMeLNRj3_Q9ZHfTc00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733161447923-jptk8oe6ggigr2o0o18ov315f0fvklap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
